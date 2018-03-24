@@ -1,0 +1,39 @@
+[{
+        "symbol": "I",
+        "value": 1,
+        "repeatable": true,
+        "substractable": true
+    },
+    {
+        "symbol": "V",
+        "value": 5,
+        "repeatable": false,
+        "substractable": false
+    }, {
+        "symbol": "X",
+        "value": 10,
+        "repeatable": true,
+        "substractable": true
+    }, {
+        "symbol": "L",
+        "value": 50,
+        "repeatable": false,
+        "substractable": false
+    }, {
+        "symbol": "C",
+        "value": 100,
+        "repeatable": true,
+        "substractable": true
+    }, {
+        "symbol": "D",
+        "value": 500,
+        "repeatable": false,
+        "substractable": false
+    },
+    {
+        "symbol": "M",
+        "value": 1000,
+        "repeatable": true,
+        "substractable": false
+    }
+]

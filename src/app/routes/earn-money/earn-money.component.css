@@ -1,0 +1,42 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 24px;
+}
+
+.answer-section {
+    display: block;
+    min-width: 300px;
+}
+
+.regulation {
+    display: block;
+    min-width: 300px;
+}
+
+.btn {
+    display: inline-block;
+    color: grey;
+    background-color: #ccc;
+    border-color: #ccc;
+    padding: 2px 5px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    line-height: 24px;
+    font-size: 12px;
+    border-radius: 4px;
+    height: 24px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    position: relative;
+}
+
+p {
+    margin: 2px;
+}
+
+h4 {
+    margin: 6px 2px;
+}

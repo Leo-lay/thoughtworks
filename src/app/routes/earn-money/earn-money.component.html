@@ -1,0 +1,32 @@
+<div class="content">
+    <div class="regulation">
+        <label>Please Select Your Input File:
+          <input type="file" id="fileI"  style="display:none" (change)="handleFiles($event)">
+          <label class="btn" for="fileI">Choose File!</label>
+        </label>
+
+        <div *ngIf="inputValues.length>0">
+            <h4>Test input:</h4>
+            <p *ngFor="let item of inputValues;let i = index">
+                {{item}}
+            </p>
+        </div>
+    </div>
+    <div class="answer-section">
+        <!-- <label>Please Select Your Question File:
+          <input type="file" id="fileQ"  style="display:none" (change)="handleFiles($event)">
+          <label class="btn" for="fileQ">Cilck Here</label>
+        </label> -->
+        <label> 
+          Here is QA Section 
+        <button class="btn" (click)="showQA()">Show QA</button>
+        </label>
+        <div *ngIf="qAMap.size>0">
+            <h4>Test Output:</h4>
+            <div *ngFor="let item of qAMap | iterable;">
+                <p>Q: {{item.key}}</p>
+                <p>A: {{item.value}}</p>
+            </div>
+        </div>
+    </div>
+</div>
