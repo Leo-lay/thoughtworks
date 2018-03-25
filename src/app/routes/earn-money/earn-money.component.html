@@ -1,7 +1,7 @@
 <div class="content">
     <div class="regulation">
         <label>Please Select Your Input File:
-          <input type="file" id="fileI"  style="display:none" (change)="handleFiles($event)">
+          <input type="file" id="fileI" accept=".txt" style="display:none" (change)="handleFiles($event)">
           <label class="btn" for="fileI">Choose File!</label>
         </label>
 
@@ -13,10 +13,6 @@
         </div>
     </div>
     <div class="answer-section">
-        <!-- <label>Please Select Your Question File:
-          <input type="file" id="fileQ"  style="display:none" (change)="handleFiles($event)">
-          <label class="btn" for="fileQ">Cilck Here</label>
-        </label> -->
         <label> 
           Here is QA Section 
         <button class="btn" (click)="showQA()">Show QA</button>
